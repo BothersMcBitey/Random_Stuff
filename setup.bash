@@ -17,7 +17,6 @@ cd ../../..
 #setup env
 echo "setting up conda environment"
 conda init bash
-exec bash
 conda create -n torch_env python=3
 conda activate torch_env
 conda install pytorch=0.4.1 torchvision cudatoolkit=10.0 -c pytorch
